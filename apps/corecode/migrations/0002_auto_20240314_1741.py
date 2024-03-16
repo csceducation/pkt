@@ -21,7 +21,7 @@ def default_site_config(apps, schema_editor):
     Session = apps.get_model("corecode", "AcademicSession")
     Session.objects.bulk_create(
         [
-            Session(name="Pudukkottai", current=True),
+            Session(name="Pudukottai", current=True),
         ]
     )
 
